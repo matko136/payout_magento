@@ -1,5 +1,5 @@
 {
-    "name": "payout/payment-magento",
+    "name": "matko136/payment-magento",
     "description": "Payout Payment Extension",
     "require": {
         "php": "^8.3",
