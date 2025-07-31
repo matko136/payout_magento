@@ -1,0 +1,30 @@
+{
+    "name": "payout/payment-magento",
+    "description": "Payout Payment Extension",
+    "require": {
+        "php": "^8.3",
+        "ext-curl": "*",
+        "ext-openssl": "*"
+    },
+    "type": "magento2-module",
+    "version": "2.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Payout a.s.",
+            "email": "tech@payout.one",
+            "homepage": "https://payout.one/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Payout\\Payment\\": ""
+        }
+    }
+}
